@@ -1,5 +1,9 @@
 console.log('设计模式');
 
-import SingleInstence from './single_instence/SingleInstence.ts'
+import Popover from './single_instence/example/Popover.ts'
 
-console.log(SingleInstence.getInstence())
+const options: object = {
+	a: 1,
+	b: 2
+}
+Popover.init(options).open()
