@@ -1,4 +1,6 @@
 import Popover from './single_instence/example/Popover.ts'
+import SimpleFactory from './factory/SimpleFactory.ts'
+import RouterFactory from './factory/example/RouterFactory.ts'
 /////////////////////////////////////////////////////////
 ///////////////弹出层
 /////////////////////////////////////////////////////////
@@ -42,3 +44,11 @@ btn.addEventListener('click', () => {
 document.body.appendChild(btn);
 ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
+const admin = SimpleFactory.getInstence('admin');;
+const other = SimpleFactory.getInstence('other');
+
+console.log(admin);
+console.log(other)
+
+const role = RouterFactory.init('超级管理员');
+console.log(role)

@@ -1,0 +1,31 @@
+[{
+	"id": 0,
+	"path": "",
+	"name": "系统管理",
+	"parent": ""
+}, {
+	"id": 1,
+	"path": "sys/user",
+	"name": "用户管理",
+	"parent": 0
+}, {
+	"id": 2,
+	"path": "sys/menu",
+	"name": "菜单管理",
+	"parent": 0
+}, {
+	"id": 3,
+	"path": "sys/role",
+	"name": "角色管理",
+	"parent": 0
+}, {
+	"id": 4,
+	"path": "",
+	"name": "部门管理",
+	"parent": ""
+}, {
+	"id": 5,
+	"path": "dept/dev",
+	"name": "开发部门",
+	"parent": 4
+}]
