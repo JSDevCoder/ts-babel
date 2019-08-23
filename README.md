@@ -2,9 +2,9 @@
 
 Typescript实现设计模式
 
-[单例模式](#)
+[单例模式](./src/single_instence)
 
-[简单工厂模式](#)
+[简单工厂模式](./src/factory)
 
 
 
