@@ -1,3 +1,7 @@
+/**
+ * 工厂模式 - 简单工厂模式
+ * @email mnkv@163.com
+ */
 export default class SimpleFactory {
 	public name: string
 	public age: number
@@ -6,6 +10,7 @@ export default class SimpleFactory {
 		this.name = opts.name;
 		this.age = opts.age;
 	}
+	
 	/**
 	 * 静态实例方法
 	 */

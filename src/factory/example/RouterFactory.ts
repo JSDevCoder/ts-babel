@@ -2,8 +2,10 @@ import menu from './menu.json'
 import role from './role.json'
 export default class RouterFactory {
 	
-	constructor(public opts: any) {
-		 this.opts = opts;
+	public auth: any
+	
+	constructor(opts: any) {
+		 this.auth = opts;
 	}
 	
 	public static init(param: string): any {
